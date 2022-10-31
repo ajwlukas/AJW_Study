@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Pimpl">
+      <UniqueIdentifier>{87e25aa8-be46-4e54-97d4-ddf051d17d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ArrayParameter">
+      <UniqueIdentifier>{f55cc02d-1a01-4190-baa7-30f9cdf7e948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Pattern">
+      <UniqueIdentifier>{3670520e-c168-4ba0-af7e-64dcf999a02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Pattern\Observer">
+      <UniqueIdentifier>{905362b5-4b13-48aa-8896-f7831ea5bbfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\FunctionPointer">
+      <UniqueIdentifier>{565ad25b-d3ca-4ef1-b770-4cb20e90dbd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Pimpl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayParameter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex_Observer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex_FunctionPointer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex_ObserverWithFunctional.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pimpl.h">
+      <Filter>헤더 파일\Pimpl</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayParameter.h">
+      <Filter>헤더 파일\ArrayParameter</Filter>
+    </ClInclude>
+    <ClInclude Include="IExample.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ex_Observer.h">
+      <Filter>헤더 파일\Pattern\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Ex_FunctionPointer.h">
+      <Filter>헤더 파일\FunctionPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="Ex_ObserverWithFunctional.h">
+      <Filter>헤더 파일\Pattern\Observer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
