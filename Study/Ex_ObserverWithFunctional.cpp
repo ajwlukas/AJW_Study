@@ -5,6 +5,8 @@
 #include <functional>
 #include <vector>
 
+#include "AjwCommon\Input.h"
+
 using namespace std;
 
 class ResizeNotice
@@ -87,14 +89,26 @@ void Ex_ObserverWithFunctional::main()
 	RenderTarget* rt = new RenderTarget(&notice);
 	Camera* cam = new Camera(&notice);
 	
+	ajwCommon::Input* input = new ajwCommon::Input();
+
 	/*notice.AddEvent([](UINT a, UINT b) { cout << a << b << endl; });
 	notice.AddEvent(Test);*/
 
-	notice.OccurEvent();
+	//notice.OccurEvent();
+
+
+	while (true)
+	{
+		input->Update();
+
+
+		if(input->Down(VK_SPACE))
+			notice.OccurEvent();
+
+	}
 
 	delete cam;
 	delete rt;
 
-
-	notice.OccurEvent();
+	delete input;
 }
