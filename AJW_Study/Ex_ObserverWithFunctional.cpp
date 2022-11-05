@@ -5,7 +5,7 @@
 #include <functional>
 #include <vector>
 
-#include "AjwCommon\Input.h"
+#include "../jw_Input/Input.h"
 
 using namespace std;
 

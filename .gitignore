@@ -31,6 +31,10 @@
 *.out
 *.app
 
+
+#custom from here
+*.pdb
 .vs/
 Debug/
-Release/
+x64/
+_build/
