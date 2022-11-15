@@ -5,6 +5,8 @@
 #include "Ex_FunctionPointer.h"
 #include "Ex_ObserverWithFunctional.h"
 
+#include "SizeOfFunctor\Ex_FunctorSize.h"
+
 int main()
 {
 	ExampleManager exManager;
@@ -13,6 +15,7 @@ int main()
 	exManager.AddExample<Ex_Observer>();
 	exManager.AddExample<Ex_FunctionPointer>();
 	exManager.AddExample<Ex_ObserverWithFunctional>();
+	exManager.AddExample<Ex_FunctorSize>();
 
 	exManager.ExecuteLastExample();
 

@@ -54,6 +54,9 @@
     <ClCompile Include="Ex_ObserverWithFunctional.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SizeOfFunctor\Ex_FunctorSize.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pimpl.h">
@@ -79,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="Ex_ObserverWithFunctional.h">
       <Filter>헤더 파일\Pattern\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="SizeOfFunctor\Ex_FunctorSize.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
