@@ -175,6 +175,7 @@
     <ClCompile Include="ArrayParameter.cpp" />
     <ClCompile Include="ExampleManager.cpp" />
     <ClCompile Include="Ex_FunctionPointer.cpp" />
+    <ClCompile Include="Ex_Goto.cpp" />
     <ClCompile Include="Ex_Observer.cpp" />
     <ClCompile Include="Ex_ObserverWithFunctional.cpp" />
     <ClCompile Include="main.cpp" />
@@ -184,6 +185,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ex_FunctionPointer.h" />
+    <ClInclude Include="Ex_Goto.h" />
     <ClInclude Include="Ex_Observer.h" />
     <ClInclude Include="ArrayParameter.h" />
     <ClInclude Include="ExampleManager.h" />

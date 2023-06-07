@@ -30,6 +30,7 @@ public:
 	{
 		for (Observer* ob : observers)
 			ob->Event();
+
 	}
 
 private:
